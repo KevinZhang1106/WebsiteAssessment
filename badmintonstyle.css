@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.websiteheader {
+  text-align: center;
+  font-size: 3em;
+  background-color: green;
+  color: white;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+ 
+  margin: 20px auto;
+  background-color: grey;
+  padding: 10px; 
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+  border-radius: 8px; 
+  transition: transform 0.2s; 
+ 
+}
+
+.grid-item:hover {
+  transform: scale(1.05); 
+}
