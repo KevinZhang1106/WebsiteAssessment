@@ -7,14 +7,17 @@ body {
 img {
   width: 100%;
   height: auto;
+  border-radius: 25px;
 }
 
 .websiteheader {
   text-align: center;
   font-size: 3em;
   background-color: green;
+  background-image: url("images/BadmintonBorder.JPG");
   color: white;
   padding: 20px;
+  transition: transform 0.2s;
 }
 
 .grid-container {
@@ -39,6 +42,11 @@ img {
  
 }
 
+.websiteheader:hover {
+  transform:scale(1.05);
+}
+
 .grid-item:hover {
   transform: scale(1.05); 
 }
+
